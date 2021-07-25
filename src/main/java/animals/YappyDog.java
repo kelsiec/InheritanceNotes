@@ -12,4 +12,8 @@ public class YappyDog extends Dog {
         // Use accessor
         System.out.println(this.getNoise() + " " + this.getNoise());
     }
+
+    public void makeEvenMoreNoise() {
+        System.out.println("YAP YAP YAP YAP YAP");
+    }
 }
